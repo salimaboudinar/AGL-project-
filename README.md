@@ -2,6 +2,19 @@
 DIAGRAMME DE CAS D'UTILISATION
 ![CAP](https://github.com/salimaboudinar/AGL-project-/assets/68598374/adfc219c-6f36-4dc9-8db2-6321d2ab047f)
 1.Introduction du projet :
+| Pré condition                     | Test 1 | Test 2 | Test 3 | Test 4 |Test 5|Test 6|
+|-----------------------------------|--------|--------|--------|--------|
+| login ( non nul et non vide )          | F      | T      | T      | T      |T      |T       |
+| mot de passe ( non nul et non vide ) |        | F     | T      | T      |T   |T      |
+| client existe    |       |         | F      | T      |T      |T     |
+| champs ( non nuls et non vides )           |       |        |        | F      |T      |T       |
+|équipement inexistant           |      |      |     |      |F    |T       |
+|-----------------------------------|--------|--------|--------|--------|
+| *Post condition*                | *Test 1* | *Test 2* | *Test 3* | *Test 4* | *Test 5* | *Test 6* |
+|ajout d’un équipement à CasaControl       | F      | F      | F      | F      |F     |T   |
+|-----------------------------------|--------|--------|--------|--------|
+| Nombre de jeux de tests                  | 2      | 2      | 1      | n*2      |1  |1   |
+
 
 
 Choix du sujet et description générale :
